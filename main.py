@@ -42,7 +42,7 @@ def czy_prostokatny(a, b, c):
     else:
         print("Nie jest prostokątny\n")
 
-czy_prostokatny(3,4,5)
+czy_prostokatny(5,7,20)
 
 #Zad 5
 
@@ -74,10 +74,10 @@ print("\nZadanie 7: \n")
 def iloczyn_ciagu2(b, *x):
     wynik = []
     for a in x:
-        wynik.append(ciag[a]*b)
+        wynik.append(a*b)
     return wynik
 
-print("Pierwszy argument to b, potem elementy ciągu\n", iloczyn_ciagu2(4,1,2,3))
+print("Pierwszy argument to b, potem elementy ciągu\n", iloczyn_ciagu2(4,5,7,12))
 
 #Zad 8
 
@@ -87,8 +87,8 @@ def lista_zakupow(**zakupy):
     suma = 0
     for key, value in zakupy.items():
         suma = suma + value
-    print("Ilość zakupów:", len(zakupy), "\nWartość produktów:", suma)
+    print("Ilość produktów:", len(zakupy), "\nWartość produktów:", suma)
 
-print(lista_zakupow(jajka = 7.20, mleko = 2.99, ziemniaki = 5.50, mango = 13.49, batony = 6.37))
+lista_zakupow(jajka = 7.20, mleko = 2.99, ziemniaki = 5.50, mango = 13.49, batony = 6.37)
 
 
