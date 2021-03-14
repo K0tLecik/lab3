@@ -1,5 +1,5 @@
 def roznica(ciag):
-    return("r =", ciag[0]-ciag[1])
+    return("r =", ciag[1]-ciag[0])
 
 def nty_wyraz(ciag,n,r):
     return("a", n, "=", ciag[0]+(n-1)*r)

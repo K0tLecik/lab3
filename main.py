@@ -91,4 +91,6 @@ def lista_zakupow(**zakupy):
 
 lista_zakupow(jajka = 7.20, mleko = 2.99, ziemniaki = 5.50, mango = 13.49, batony = 6.37)
 
+from Ciagi import *
 
+print(Ca.roznica(ciag))
